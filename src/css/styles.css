@@ -38,10 +38,12 @@
     align-items: flex-start;
     gap: 5px;
     cursor: pointer;
+     /* background-color: aquamarine; */
 }
 
 .tables-views-buttons{
     margin-left: 40px;
+    display: flex;
 
 }
 
@@ -54,11 +56,13 @@
 .schema-button,
 .tables-button {
     border: none;
+    display: flex;
     overflow: auto;
+
+    /* background-color: aquamarine; */
 }
 .head{
     width: 350px;
-    
     display: flex;
     border: 2px solid black;
 
@@ -68,6 +72,14 @@
 
 .tables-list{
     background-color: rgb(239, 245, 245);
+    margin-left: 20px;;
     
 }
 
+.schema-button{
+    margin-left: 20px;
+}
+.columns-list{
+    display: flex;
+    margin-left: 20px;
+}

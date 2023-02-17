@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useState } from "react";
+import { scryRenderedComponentsWithType } from "react-dom/test-utils";
 import { useLocation } from "react-router-dom";
 import Schemas from "../components/Schemas";
 import '../css/styles.css'
@@ -55,4 +56,16 @@ const Home = () => {
     );
 }
 export default Home;
+
+
+
+
+
+
+
+
+
+
+
+
 

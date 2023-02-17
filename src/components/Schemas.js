@@ -17,6 +17,7 @@ export default function Schemas(props) {
         const url = "http://localhost:8080/task/" +selectedCatalog;
         axios.post(url, reqBody, { cache: false })
             .then(resp => {
+                console.log(resp)
                 setSchemas(resp.data)
                 console.log(resp.data)
             }).catch(error => {

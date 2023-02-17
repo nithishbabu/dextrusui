@@ -25,7 +25,8 @@ function Login(){
         setData({ ...data, [event.target.name]: event.target.value });
     };
 
-    const handleSubmit = event => {
+    const handleSubmit = event => 
+    {
         event.preventDefault();
        
 
